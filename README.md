@@ -16,5 +16,3 @@ Aplicación de la ingeniería de software, bases de datos e internet de las cosa
 ## Universidad:
 TEINCO | Corporación Tecnológica Industrial Colombiana
 
-> Nota: Este proyecto aun se encuentra en desarrollo.
-
