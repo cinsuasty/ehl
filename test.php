@@ -1,4 +1,3 @@
 <?php
-    echo('test')
-    print_r($_ENV);
+    echo('aaaaaaaa')
 >?
