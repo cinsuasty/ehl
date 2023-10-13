@@ -1,0 +1,238 @@
+@media all and (orientation:landscape) {
+    
+
+.grid-container{
+    display: grid;
+    grid-template-columns:50% 50%;
+    grid-template-rows: 10% 30% 60% 10%;
+    width: 71vw;
+    left: 15vw;
+    position: relative;
+    row-gap: 3vh;
+}
+
+#grid-titulo{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    top: 15vh;
+    text-align: center;
+}
+
+#grid-titulo h1{
+    background-color:rgb(18, 146, 82);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+#grid-subtitulo{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    top: 1vh;
+    background-color:transparent;
+    text-align: center;
+    background-color: rgb(206, 231, 218);
+    border-radius: 10px;
+}
+
+
+#grid-subtitulo label{
+    background-color: transparent;
+    display:inline-block;
+    width: 10%;
+}
+
+#item1{
+    border-radius: 10px;
+    list-style: none;
+    text-align: center;
+    background-color: rgb(206, 231, 218);
+    padding-top: 4vh;
+}
+
+#item1 select{
+    width: 80%;
+}
+#item1 input{
+    width: 80%;
+}
+
+#item2{
+    border-radius: 10px;
+    list-style: none;
+    text-align: center;
+    background-color: rgb(206, 231, 218);
+}
+
+#item2 img{
+    width:250px; 
+    height:250px; 
+    border-radius:10px; 
+    position: relative; 
+    top:8vh;
+}
+
+#item3{
+    width: 71vw;
+    background-color: rgb(206, 231, 218);
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#item3 input{
+    position: relative;
+    top: 2vh;
+    border: 1px solid grey;
+}
+
+.canvas{
+    border-radius: 10px;
+}
+
+.boton{
+    background-color:rgb(168, 168, 168);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    top: 2vh;
+    text-decoration: none;
+    color:black;
+}
+
+.boton:hover{
+    background-color:rgb(147, 147, 147);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+}
+}
+
+
+@media all and (orientation:portrait) {
+    
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 10% 25% 35% 20% 15%;
+        width: 71vw;
+        left: 15vw;
+        position: relative;
+        row-gap: 3vh;
+    }
+    
+    #grid-titulo{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        top: 15vh;
+        text-align: center;
+    }
+    
+    #grid-titulo h1{
+        background-color:rgb(18, 146, 82);
+        border-radius: 10px;
+        padding: 15px;
+    }
+    
+    #grid-subtitulo{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        top: 1vh;
+        background-color:transparent;
+        text-align: center;
+        background-color: rgb(206, 231, 218);
+        border-radius: 10px;
+    }
+
+    #grid-subtitulo input{
+        width: 80%;
+    }
+    
+    
+    #grid-subtitulo label{
+        background-color: transparent;
+        width: 10%;
+    }
+    
+    #item1{
+        border-radius: 10px;
+        list-style: none;
+        text-align: center;
+        background-color: rgb(206, 231, 218);
+        padding-top: 4vh;
+    }
+
+    #item1 select{
+        width: 80%;
+    }
+
+    #item1 input{
+        width: 80%;
+    }
+    
+    #item2{
+        border-radius: 10px;
+        list-style: none;
+        text-align: center;
+        background-color: rgb(206, 231, 218);
+        padding-top: 5px;
+    }
+
+    #item2 img{
+        width: 190px;
+        height: 190px;
+    }
+    
+    #item3{
+        width: 71vw;
+        background-color: rgb(206, 231, 218);
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    #item3 input{
+        position: relative;
+        top: 3vh;
+        border: 1px solid grey;
+        right: 22%;
+    }
+    
+    .canvas{
+        border-radius: 10px;
+    }
+    
+    .boton{
+        background-color:rgb(168, 168, 168);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        text-align: center;
+        border-radius: 10px;
+        position: relative;
+        top: 2vh;
+        text-decoration: none;
+        color:black;
+    }
+    
+    .boton:hover{
+        background-color:rgb(147, 147, 147);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        text-align: center;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+    }
+    

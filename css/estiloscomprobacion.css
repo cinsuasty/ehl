@@ -1,0 +1,230 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#fff;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.titulos{
+    width: 100%;
+    height:95px;
+    background: #163685;
+}
+
+
+#logotitulo{
+    height: 80%;
+    width: 300px;
+    margin: 5px;
+    background-color: #fff;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
+.caja1{
+    top: 100px;
+    height: 45px;
+    background-color: #163685;
+    width: 100%;
+    text-align: center;
+}
+
+#titulomenu{
+    text-align: center;
+    color: white;
+    top: 25%;
+    position: relative;
+    background-color: #163685;
+    font-weight: bold;
+}
+
+
+.container{
+    text-align: center;
+    width: 50%;
+    background-color: transparent;
+    position: relative;
+    transform: translate(0%,-10%);
+    padding-top: 30px;
+    margin: auto;
+    border-radius: 20px;
+    box-sizing: inherit;
+    height: 400px;
+    top: 100px;
+    line-height: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.container input{
+    border: none;
+    border-bottom: solid 1px #163685 ;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+
+
+
+.piedepagina{
+    bottom: 0%;
+    position: fixed;
+    background-color: #163685;
+    display: block;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 2px;
+    font-size: 14px;
+    font-size: calc(0.7em + 0.7vw);
+}
+
+
+
+
+
+
+.subcaja2 input[type="submit"]{
+    border:none;
+    outline: none;
+    height: 30px;
+    width: 60%;
+    background-color:#158811; 
+    color: #fff;
+    font-size: 10px;
+    padding: 3px;
+    border-radius: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: calc(0.7vh + 0.7vw);
+    transition: all 300ms ease 0ms;
+    position: relative;
+    margin-top: 5px;
+}
+
+
+.btn-flotante {
+	font-size: 20px; /* Cambiar el tamaño de la tipografia */
+	color: #ffffff; /* Color del texto */
+	border-radius: 20px; /* Borde del boton */
+	background-color: #158811; /* Color de fondo */
+	padding: 15px 15px; /* Relleno del boton */
+	position: fixed;
+	bottom: 40px;
+	right: 80px;
+	transition: all 300ms ease 0ms;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	z-index: 99;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.btn-flotante:hover {
+	background-color: #0e5230;; /* Color de fondo al pasar el cursor */
+	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+	transform: translateY(-7px);
+}
+
+@media only screen and (max-width: 600px) {
+ 	.btn-flotante {
+		font-size: 14px;
+		padding: 12px 20px;
+		bottom: 20px;
+		right: 20px;
+	}
+}
+
+@import url(https://fonts.googleapis.com/css?family=Oswald:400);
+
+.navigation {
+  width: 100%;
+  background-color: red;
+}
+
+.navigation img {
+  width: 25px;
+  border-radius: 0px;
+  float: left;
+}
+
+.logout {
+  font-size: .8em;
+  font-family: 'Oswald', sans-serif;
+    position: absolute;
+  right: -18px;
+  bottom: -2px;
+  overflow: hidden;
+  letter-spacing: 3px;
+  opacity: 0;
+  transition: opacity .45s;
+  -webkit-transition: opacity .35s;
+}
+
+.button1 {
+    text-decoration: none;
+	float: right;
+  padding: 12px;
+  margin: 15px;
+  color: white;
+  width: 25px;
+  background-color: red;
+  transition: width .35s;
+  -webkit-transition: width .35s;
+  overflow: hidden;
+  position:absolute;
+  right: 2vh;
+  top: 0px;
+  border-radius: 10px;
+}
+
+.navigation a:hover {
+  width: 100px;
+}
+
+.navigation a:hover .logout{
+  opacity: .9;
+}
+
+.navigation a {
+  text-decoration: none;
+}
+
+
+
+.caja11{
+  position: relative;
+  background-color: transparent;
+}
+.caja11 tr{
+  left: 28%;
+  position: relative;
+}
+
+.caja22{
+  position: relative;
+  background-color: transparent;
+  text-align: center;
+  top:-170px;
+  left: 15vw;
+}
+.caja22 tr{
+  left: 45%;
+  position: relative;
+}
+
+.caja33{
+  position: relative;
+  background-color: transparent;
+  text-align: center;
+  top: -338px;
+  right: -71%;
+}
+
+.caja33 tr{
+  left: 10%;
+  position: relative;
+}
+
+
