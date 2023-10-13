@@ -4,8 +4,8 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Login</title>
-    <link rel="stylesheet" href="css/estilos.css">
+    <title>Pagina de Login</title>
+    <link rel="stylesheet" href="css/estilos.css"> 
     <link rel="shortcut icon" href="https://habitatlimpio.com/E_H_L/E_H_L/wp-content/uploads/2017/11/empresa-1.png" type="image/x-icon">
     
 </head>
@@ -18,13 +18,13 @@
             <h1>ECOPROCESOS HABITAT LIMPIO - SISTEMA DE GESTION DEL AFORO</h1>
             <h2> <u> Iniciar Sesión</u></h2>
         </div>
-
+        
         <div class="formu">
-        <form action="/config/inicio_session.php" method="post">
-            <!--Usuario-->
+        <form action="Proyecto.php" method="post">
+            <!--Usuario-->            
             <label for="username">Usuario:</label>
             <input id="username" type="text" placeholder="Ingrese el usuario" name="txt_username" required> 
-            <!--Contraseña-->
+            <!--Contraseña--> 
             <label for="password">Contraseña:</label>
             <input type="password" placeholder="Ingrese la contraseña" name="txt_password" required>
             <!--Boton de aceptar-->
@@ -36,8 +36,8 @@
 </body>
 <script>
     function redirigir(){
-        if(sessionStorage.getItem("session")){window.location="https://dc.habitatlimpio.com/modulos/menu.php"};
-        if(window.location=="http://dc.habitatlimpio.com/"){window.location="https://dc.habitatlimpio.com/"};
+        if(sessionStorage.getItem("session")){window.location="http://localhost/modulos/menu.php"};
+        if(window.location=="http://dc.habitatlimpio.com/"){window.location="http://localhost/modulos/menu.php"};
     }
 </script>
 <footer>
